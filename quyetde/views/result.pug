@@ -1,0 +1,8 @@
+extends ./layout/common
+block content
+  p= ask.ask 
+  div
+    span #{ask.yes} yes
+    span &nbsp;
+    span #{ask.no} no
+  a(href="/") other ask 

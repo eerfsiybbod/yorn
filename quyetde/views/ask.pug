@@ -1,0 +1,14 @@
+extends ./layout/common
+block content
+  form(action="/ask", method="POST")
+    label(for='ask') Ask
+    br
+    textarea#ask(maxlength='200', name="ask")
+    small#char 200 char
+    br
+    if errors
+      each err in errors
+        .alert.alert-danger= err
+    button Ask
+    script(src="/js/ask.js")
+

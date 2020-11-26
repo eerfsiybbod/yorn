@@ -1,0 +1,9 @@
+extends ./layout/common
+block content
+  p #{ask.ask}
+  form(action="/ask/" + ask.id, method="POST")
+    button(name="yes", value="yes") Yes
+    button(name="no", value="no") No
+  a(href="/result/" + ask.id) result
+  span &nbsp;
+  a(href="/") other ask 

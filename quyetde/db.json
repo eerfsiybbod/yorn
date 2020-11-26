@@ -1,0 +1,46 @@
+{
+  "asks": [
+    {
+      "id": "9am-Dggjw",
+      "ask": "You're happy!!!",
+      "yes": 0,
+      "no": 0
+    },
+    {
+      "id": "RMjqetQu5",
+      "ask": "Can I help you?",
+      "yes": 0,
+      "no": 3
+    },
+    {
+      "id": "yf7_BGfKj",
+      "ask": "Is your father a doctor?",
+      "yes": 2,
+      "no": 1
+    },
+    {
+      "id": "wwbNaDvzF",
+      "ask": "Is your mother at home?",
+      "yes": 0,
+      "no": 0
+    },
+    {
+      "id": "IfSAboXS-",
+      "ask": "Are you students?",
+      "yes": 0,
+      "no": 0
+    },
+    {
+      "id": "_5VGsmcpB",
+      "ask": "Are the children in the garden?",
+      "yes": 0,
+      "no": 0
+    },
+    {
+      "id": "nMy0GCuRO",
+      "ask": "how are you?",
+      "yes": 0,
+      "no": 0
+    }
+  ]
+}
